@@ -1,0 +1,59 @@
+[0m18:36:24.154998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194C35E01A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194BF29B390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194C55F7D90>]}
+
+
+============================== 18:36:24.163128 | ff5619b7-f261-4c9e-9f2c-898b9002d5ec ==============================
+[0m18:36:24.163128 [info ] [MainThread]: Running with dbt=1.10.13
+[0m18:36:24.164913 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init dbt_crypto', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'quiet': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m18:36:24.200243 [debug] [MainThread]: Starter project path: C:\Program Files\Python313\Lib\site-packages\dbt\include\starter_project
+[0m18:36:24.212516 [info ] [MainThread]: 
+Your new dbt project "dbt_crypto" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:36:24.213427 [info ] [MainThread]: Setting up your profile.
+[0m18:38:26.387256 [info ] [MainThread]: Profile dbt_crypto written to C:\Users\Lenovo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:38:26.389800 [debug] [MainThread]: Command `dbt init` succeeded at 18:38:26.389575 after 122.44 seconds
+[0m18:38:26.390439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194D6792D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194D4BC8A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194D67AA140>]}
+[0m18:38:26.391006 [debug] [MainThread]: Flushing usage events
+[0m18:38:31.708031 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:50:07.266340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018C543801A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018C5003B390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018C563A3D90>]}
+
+
+============================== 18:50:07.272845 | 6154560f-d855-46f9-a978-df1c3f90e3e3 ==============================
+[0m18:50:07.272845 [info ] [MainThread]: Running with dbt=1.10.13
+[0m18:50:07.274167 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m18:50:07.275155 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\GIT\cryptocurrency_market\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:50:07.277374 [debug] [MainThread]: Command `dbt run` failed at 18:50:07.277123 after 0.25 seconds
+[0m18:50:07.278121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018C563E88A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018C552DEF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018C5524B460>]}
+[0m18:50:07.278911 [debug] [MainThread]: Flushing usage events
+[0m18:50:08.996365 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:00:24.252254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C67CC801A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6788EB390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C67ECA3D90>]}
+
+
+============================== 19:00:24.260686 | 85295369-00cc-4a0b-981e-d48ab2d6526c ==============================
+[0m19:00:24.260686 [info ] [MainThread]: Running with dbt=1.10.13
+[0m19:00:24.262125 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m19:00:24.262998 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\GIT\cryptocurrency_market\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:00:24.264626 [debug] [MainThread]: Command `dbt run` failed at 19:00:24.264385 after 0.25 seconds
+[0m19:00:24.265218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C67ECE88A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C67DBDAF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C67DB4F460>]}
+[0m19:00:24.265807 [debug] [MainThread]: Flushing usage events
+[0m19:00:26.041698 [debug] [MainThread]: An error was encountered while trying to flush usage events

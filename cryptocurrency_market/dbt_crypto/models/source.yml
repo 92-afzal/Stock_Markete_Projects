@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+    - name: snowflake
+      database: crypto
+      schema: raw
+      tables:
+        - name: CRYPTO_MARKET
